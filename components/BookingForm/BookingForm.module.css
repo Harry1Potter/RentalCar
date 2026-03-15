@@ -1,0 +1,99 @@
+.modalForm {
+  width: 640px;
+  padding: 32px;
+  border: 1px solid #dadde1;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.modalTextSection {
+  margin-bottom: 8px;
+}
+
+.modalTitle {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #101828;
+  margin-bottom: 8px;
+}
+
+.modalText {
+  font-size: 16px;
+  color: #8d929a;
+}
+
+.formInput {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 12px;
+  border: none;
+  position: relative;
+  background: #f7f7f7;
+  font-size: 16px;
+}
+
+.formTextarea {
+  width: 100%;
+  min-height: 88px;
+  padding: 14px 16px;
+  border-radius: 12px;
+  border: none;
+  background: #f7f7f7;
+  resize: none;
+  font-size: 16px;
+}
+
+.submitButton {
+  align-self: center;
+  margin-top: 8px;
+  padding: 12px 50px;
+  border: none;
+  border-radius: 12px;
+  background: #3470ff;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.submitButton:hover {
+  background: #2854c5;
+}
+
+.formInput[type="date"] {
+  position: relative;
+}
+
+.formInput[type="date"]::-webkit-datetime-edit {
+  color: transparent;
+}
+
+.formInput[type="date"]:focus::-webkit-datetime-edit {
+  color: #101828;
+}
+
+.formInput[type="date"]::before {
+  content: "Booking Date";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #8d929a;
+  position: absolute;
+}
+
+.formInput[type="date"]:valid::before {
+  display: none;
+}
+
+.formInput[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}

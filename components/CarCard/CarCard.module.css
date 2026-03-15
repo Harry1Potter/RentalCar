@@ -1,0 +1,64 @@
+.card {
+  width: 276px;
+  display: flex;
+  flex-direction: column;
+}
+
+.imageWrapper {
+  position: relative;
+  margin-bottom: 16px;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.favoriteButton {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.titleRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.title span {
+  color: #3470FF;
+}
+
+.price {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 28px;
+  font-size: 12px;
+  color: #8D929A;
+}
+
+.readButton {
+  width: 100%;
+  padding: 12px 0;
+  text-align: center;
+  background: #3470FF;
+  color: white;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+.readButton:hover {
+  background: #0B44CD;
+}

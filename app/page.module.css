@@ -1,0 +1,49 @@
+
+.heroContainer {
+  max-width: 1440px;
+  height: 700px;
+  margin: 0px auto;
+  background-image: url('../images/front-page-car.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 436px;
+  margin-top: 4px;
+}
+
+.heroTitle {
+  font-size: 60px;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.heroText {
+  font-size: 24px;
+  font-weight: 600;
+  color: #FFFFFF;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.heroButton {
+  font-size: 16px;
+  font-weight: 600;
+  display: block;
+  margin: 0 auto;
+  width: 276px;
+  padding: 12px 88px;
+  background-color: #3470FF;
+  color: #FFFFFF;
+  border-radius: 12px;
+  text-align: center;
+  line-height: 1.25;
+}
+
+.heroButton:hover,
+.heroButton:active {
+  background-color: #0B44CD;
+}

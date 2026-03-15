@@ -1,0 +1,49 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 84px 0px;
+  background-color: #FFFFFF;
+}
+
+.carsGrid {
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+}
+
+.empty,
+.end {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 16px;
+  color: #8D929A;
+}
+
+.loadMore {
+  display: block;
+  font-weight: 600;
+  margin: 40px auto 0;
+  padding: 12px 38px;
+  background-color: #FFFFFF;
+  color: #101828;
+  border-radius: 12px;
+  border: 1px solid #3470FF;
+  cursor: pointer;
+}
+
+.loadMore:hover,
+.loadMore:active {
+  border: 1px solid #0B44CD;
+}
+
+.loadMore:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
